@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://b01rc4n6s1su4"]
+
+[ext_resource type="PackedScene" uid="uid://6eldlj7hr12f" path="res://porject/sol.tscn" id="1_sl5cf"]
+[ext_resource type="PackedScene" uid="uid://cbedv7rpfyowo" path="res://porject/map.tscn" id="2_jlx40"]
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2(0.948718, 1.00552)
+
+[node name="StaticBody2D" parent="." instance=ExtResource("2_jlx40")]
+show_behind_parent = true
+position = Vector2(0, 7.95608)
+
+[node name="sol" parent="." instance=ExtResource("1_sl5cf")]
