@@ -3,14 +3,14 @@
 extends CharacterBody2D
 const JUMP_FORCE = 1000
 const SPEED = 600
+const DASH_DURATION = 0.2 
 const GRAVITY=1200
 const SPRINT_MULTIPLIER = 2.0
 const DASH_SPEED = 1500
-const DASH_DURATION = 0.2 
 
+var dash_timer = 0.0
 var is_dashing = false
 var dash_direction = Vector2.ZERO
-var dash_timer = 0.0
 var dash_use =1
 
 var side= 1 

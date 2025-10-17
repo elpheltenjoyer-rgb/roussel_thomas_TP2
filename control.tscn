@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="AudioStream" uid="uid://bs14aq0m2naom" path="res://asset/001_Smell of the Game.mp3" id="1_eg3gp"]
+[ext_resource type="Texture2D" uid="uid://befoh1mkt3ca8" path="res://asset/img/GWxh2yzWAAAIC8M.jpg" id="2_g33nd"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+top_level = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.424
+anchor_top = 0.63
+anchor_right = 0.569
+anchor_bottom = 0.691
+offset_left = -0.448029
+offset_top = -0.240021
+offset_right = 0.511963
+offset_bottom = 0.231964
+text = "start"
+
+[node name="Label" type="Label" parent="Button"]
+layout_mode = 0
+offset_top = -104.0
+offset_right = 168.0
+offset_bottom = -48.0
+text = "sol badguy "
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Button"]
+stream = ExtResource("1_eg3gp")
+
+[node name="GWxh2YzWaaaic8m" type="Sprite2D" parent="."]
+position = Vector2(576, 328)
+scale = Vector2(1.08577, 0.426805)
+texture = ExtResource("2_g33nd")
