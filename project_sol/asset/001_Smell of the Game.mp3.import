@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bs14aq0m2naom"
+path="res://.godot/imported/001_Smell of the Game.mp3-b8abb241c51bd8c96749887b014b897f.mp3str"
+
+[deps]
+
+source_file="res://asset/001_Smell of the Game.mp3"
+dest_files=["res://.godot/imported/001_Smell of the Game.mp3-b8abb241c51bd8c96749887b014b897f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

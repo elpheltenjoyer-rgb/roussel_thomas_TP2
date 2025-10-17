@@ -14,7 +14,12 @@ var dash_timer = 0.0
 var dash_use =1
 
 var side= 1 
+var sound=1
 
+func music():
+	
+	if sound==1:
+		$AudioStreamPlayer.play()
 func _physics_process(delta):
 	
 	var direction = Vector2.ZERO
