@@ -1,0 +1,163 @@
+[gd_scene load_steps=38 format=3 uid="uid://ie74ecnfilpn"]
+
+[ext_resource type="Texture2D" uid="uid://bm0n8xc7h8lss" path="res://asset/uma musume coin/card_animation/card_01.png" id="1_m383q"]
+[ext_resource type="Texture2D" uid="uid://du6swvmx05t1u" path="res://asset/uma musume coin/card_animation/card_02.png" id="2_gjxt3"]
+[ext_resource type="Texture2D" uid="uid://dovvqc67qyhw6" path="res://asset/uma musume coin/card_animation/card_03.png" id="3_pwbc3"]
+[ext_resource type="Texture2D" uid="uid://l30omok6bt21" path="res://asset/uma musume coin/card_animation/card_04.png" id="4_72x07"]
+[ext_resource type="Texture2D" uid="uid://cf8efc72yci54" path="res://asset/uma musume coin/card_animation/card_05.png" id="5_i4cp4"]
+[ext_resource type="Texture2D" uid="uid://brukf57n3muju" path="res://asset/uma musume coin/card_animation/card_06.png" id="6_e74t3"]
+[ext_resource type="Texture2D" uid="uid://crk6a3nbmta10" path="res://asset/uma musume coin/card_animation/card_07.png" id="7_las8u"]
+[ext_resource type="Texture2D" uid="uid://bpdtp8glsawwl" path="res://asset/uma musume coin/card_animation/card_08.png" id="8_7s787"]
+[ext_resource type="Texture2D" uid="uid://bd605rw42noix" path="res://asset/uma musume coin/card_animation/card_09.png" id="9_meqpk"]
+[ext_resource type="Texture2D" uid="uid://bo4pkjxscebxv" path="res://asset/uma musume coin/card_animation/card_10.png" id="10_vabr4"]
+[ext_resource type="Texture2D" uid="uid://cj47b0jl3qlej" path="res://asset/uma musume coin/card_animation/card_11.png" id="11_4xrag"]
+[ext_resource type="Texture2D" uid="uid://dswpx8inf2vt2" path="res://asset/uma musume coin/card_animation/card_12.png" id="12_6opow"]
+[ext_resource type="Texture2D" uid="uid://b25gfqpmcheoa" path="res://asset/uma musume coin/card_animation/card_13.png" id="13_oam00"]
+[ext_resource type="Texture2D" uid="uid://cq5ejdbeilwue" path="res://asset/uma musume coin/card_animation/card_14.png" id="14_5erde"]
+[ext_resource type="Texture2D" uid="uid://bxkwjvkwepp4q" path="res://asset/uma musume coin/card_animation/card_15.png" id="15_gcfda"]
+[ext_resource type="Texture2D" uid="uid://dveu5hohhbsym" path="res://asset/uma musume coin/card_animation/card_16.png" id="16_a22ba"]
+[ext_resource type="Texture2D" uid="uid://bi741bvk68cwf" path="res://asset/uma musume coin/card_animation/card_17.png" id="17_p7kgp"]
+[ext_resource type="Texture2D" uid="uid://bisamu4wjrbdc" path="res://asset/uma musume coin/card_animation/card_18.png" id="18_ngsxf"]
+[ext_resource type="Texture2D" uid="uid://c63o4io1b8eo3" path="res://asset/uma musume coin/card_animation/card_19.png" id="19_6foyo"]
+[ext_resource type="Texture2D" uid="uid://ceiughf2urb0w" path="res://asset/uma musume coin/card_animation/card_20.png" id="20_j8nvf"]
+[ext_resource type="Texture2D" uid="uid://dqwhn676rlayg" path="res://asset/uma musume coin/card_animation/card_21.png" id="21_n25sr"]
+[ext_resource type="Texture2D" uid="uid://ctup7r6m0f11o" path="res://asset/uma musume coin/card_animation/card_22.png" id="22_pe44u"]
+[ext_resource type="Texture2D" uid="uid://dy5qfk4ernj5n" path="res://asset/uma musume coin/card_animation/card_23.png" id="23_fmygk"]
+[ext_resource type="Texture2D" uid="uid://c0i67qkj3pyiu" path="res://asset/uma musume coin/card_animation/card_24.png" id="24_3ya0u"]
+[ext_resource type="Texture2D" uid="uid://bkk2e46t2ev8b" path="res://asset/uma musume coin/card_animation/card_25.png" id="25_s2wbf"]
+[ext_resource type="Texture2D" uid="uid://cnibjm3i5ut3o" path="res://asset/uma musume coin/card_animation/card_26.png" id="26_ypkfm"]
+[ext_resource type="Texture2D" uid="uid://bfwpbynathgr5" path="res://asset/uma musume coin/card_animation/card_27.png" id="27_h1ojc"]
+[ext_resource type="Texture2D" uid="uid://cmavw1k4cg2ko" path="res://asset/uma musume coin/card_animation/card_28.png" id="28_pnrel"]
+[ext_resource type="Texture2D" uid="uid://dfdnnp2teeq3w" path="res://asset/uma musume coin/card_animation/card_29.png" id="29_ehtsd"]
+[ext_resource type="Texture2D" uid="uid://r3y785tneurq" path="res://asset/uma musume coin/card_animation/card_30.png" id="30_j0dmr"]
+[ext_resource type="Texture2D" uid="uid://bqqapjkowh5pc" path="res://asset/uma musume coin/card_animation/card_31.png" id="31_sed06"]
+[ext_resource type="Texture2D" uid="uid://b7encgfcb5qpi" path="res://asset/uma musume coin/card_animation/card_32.png" id="32_6q3yo"]
+[ext_resource type="Texture2D" uid="uid://bqenivmktduhp" path="res://asset/uma musume coin/card_animation/card_33.png" id="33_k88m2"]
+[ext_resource type="Texture2D" uid="uid://ic5ooo6ovcjm" path="res://asset/uma musume coin/card_animation/card_34.png" id="34_dh0ym"]
+[ext_resource type="Texture2D" uid="uid://bwosywmge1rts" path="res://asset/uma musume coin/card_animation/card_35.png" id="35_wfaat"]
+[ext_resource type="Texture2D" uid="uid://dfmg35g1jeofs" path="res://asset/uma musume coin/card_animation/card_36.png" id="36_0024p"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_a02ir"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_m383q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_gjxt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_pwbc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_72x07")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_i4cp4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_e74t3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_las8u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_7s787")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_meqpk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_vabr4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_4xrag")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6opow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_oam00")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_5erde")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_gcfda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_a22ba")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_p7kgp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ngsxf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_6foyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_j8nvf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_n25sr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_pe44u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_fmygk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_3ya0u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_s2wbf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_ypkfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_h1ojc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_pnrel")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_ehtsd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_j0dmr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_sed06")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_6q3yo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_k88m2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_dh0ym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_wfaat")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_0024p")
+}],
+"loop": true,
+"name": &"coin_animation",
+"speed": 18.0
+}]
+
+[node name="umacoin" type="Node2D"]
+scale = Vector2(0.38373, 0.475409)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_a02ir")
+animation = &"coin_animation"
+frame = 9
+frame_progress = 0.675

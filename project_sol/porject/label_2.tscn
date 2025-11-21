@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkr02x4h4ypm"]
+
+[ext_resource type="Texture2D" uid="uid://clscm70cpp0a0" path="res://asset/images.jpg" id="1_u20ee"]
+
+[node name="label_2" type="Node2D"]
+
+[node name="Images" type="Sprite2D" parent="."]
+position = Vector2(600, 219)
+scale = Vector2(4.52335, 4.46726)
+texture = ExtResource("1_u20ee")
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(1, 0, 0, 1)
+offset_left = 20.0
+offset_top = -98.0
+offset_right = 140.0
+offset_bottom = -75.0
+scale = Vector2(9.74808, 26.3357)
+text = "THE BRAINROT "

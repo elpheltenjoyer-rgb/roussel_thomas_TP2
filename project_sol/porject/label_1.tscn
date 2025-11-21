@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://0lvrr35fdfb7"]
+
+[ext_resource type="Texture2D" uid="uid://dwi6dstj3glkc" path="res://asset/téléchargé.jpg" id="1_3lle8"]
+
+[node name="label_1" type="Node2D"]
+
+[node name="Téléchargé" type="Sprite2D" parent="."]
+position = Vector2(600, 324)
+scale = Vector2(4.368, 4.74393)
+texture = ExtResource("1_3lle8")
+
+[node name="Label" type="Label" parent="."]
+modulate = Color(1, 0, 0, 1)
+self_modulate = Color(1, 0, 0, 1)
+offset_right = 40.0
+offset_bottom = 23.0
+scale = Vector2(14.0411, 28.3889)
+text = "THE MEME"

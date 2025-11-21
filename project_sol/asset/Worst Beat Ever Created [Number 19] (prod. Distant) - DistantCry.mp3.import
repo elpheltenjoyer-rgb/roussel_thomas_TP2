@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://xwm47i3mqmfj"
+path="res://.godot/imported/Worst Beat Ever Created [Number 19] (prod. Distant) - DistantCry.mp3-c31022f14fab5726f47ca610d1e49873.mp3str"
+
+[deps]
+
+source_file="res://asset/Worst Beat Ever Created [Number 19] (prod. Distant) - DistantCry.mp3"
+dest_files=["res://.godot/imported/Worst Beat Ever Created [Number 19] (prod. Distant) - DistantCry.mp3-c31022f14fab5726f47ca610d1e49873.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

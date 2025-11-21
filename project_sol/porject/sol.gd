@@ -13,9 +13,15 @@ var is_dashing = false
 var dash_direction = Vector2.ZERO
 var dash_use =1
 
+@onready var label_1 = $label_1
+@onready var label_2 = $label_2
+
 var side= 1 
 var sound=1
-
+func _ready() -> void:
+	label_1.modulate.a = 0.0 
+	label_2.modulate.a = 0.0 
+	
 func music():
 	
 	if sound==1:
@@ -266,3 +272,10 @@ func play_special_move(anim_name: String, duration: float):
 
 	await get_tree().create_timer(duration).timeout
 	is_playing_special = false
+	
+	
+	
+
+	
+	
+	

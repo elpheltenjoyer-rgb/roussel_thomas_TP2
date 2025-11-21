@@ -1,0 +1,468 @@
+[gd_scene load_steps=69 format=3 uid="uid://co2q6ffmtuo8t"]
+
+[ext_resource type="Script" uid="uid://b330d0tg3v8am" path="res://porject/level_3.gd" id="1_ik504"]
+[ext_resource type="Texture2D" uid="uid://dx73qwvs1tn2m" path="res://asset/img/where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2jyg6ue1.jpg" id="1_rsc25"]
+[ext_resource type="Texture2D" uid="uid://b34j8vrvxryx6" path="res://asset/vidéo/Image (15).jpg" id="2_gb518"]
+[ext_resource type="Texture2D" uid="uid://bmyiwtij5enrc" path="res://asset/8a79ae60c65c025c65d1e9a70fdacd95.jpg" id="2_uhtrj"]
+[ext_resource type="Texture2D" uid="uid://c6fbvgtxpmun2" path="res://asset/xa40ixptjv761.jpg" id="3_2jgve"]
+[ext_resource type="Texture2D" uid="uid://65tg6jpxrxkj" path="res://asset/Image (53).jpg" id="4_4yp3h"]
+[ext_resource type="Texture2D" uid="uid://b7xv1ghkkmhae" path="res://asset/Screenshot 2025-10-18 203131.png" id="5_0nkmp"]
+[ext_resource type="Texture2D" uid="uid://n2jf3i6p4xp1" path="res://asset/83f9f40363e4d3522990f9abd32c62813d9394fef9380d88aaf61d1cae0d2bd1_1.jpg" id="6_fd258"]
+[ext_resource type="Texture2D" uid="uid://befoh1mkt3ca8" path="res://asset/img/GWxh2yzWAAAIC8M.jpg" id="7_t7jna"]
+[ext_resource type="PackedScene" uid="uid://6eldlj7hr12f" path="res://porject/sol.tscn" id="8_momx5"]
+[ext_resource type="Texture2D" uid="uid://bbwmy6dailqmi" path="res://asset/ssc2019-15b-med.webp" id="8_uhtrj"]
+[ext_resource type="Texture2D" uid="uid://dh6vtfrdmpf3s" path="res://asset/1.jpg" id="10_2jgve"]
+[ext_resource type="Texture2D" uid="uid://b1sswwkv78j8m" path="res://asset/limbus-company-project-moon.png" id="10_sveto"]
+[ext_resource type="Texture2D" uid="uid://jt4af6vpr37w" path="res://asset/1973530_43.jpg" id="11_4yp3h"]
+[ext_resource type="Texture2D" uid="uid://2t516t0kaisa" path="res://asset/show.png" id="12_0nkmp"]
+[ext_resource type="Texture2D" uid="uid://dcwlydfcg327e" path="res://asset/Screenshot 2025-10-21 201253.png" id="12_1rwur"]
+[ext_resource type="Texture2D" uid="uid://c3pjwhq7heqau" path="res://asset/thumbnail_IMG_4530.jpg" id="13_ik504"]
+[ext_resource type="Texture2D" uid="uid://du7l6mdmnlaq7" path="res://asset/_2.png" id="14_aq7og"]
+[ext_resource type="Texture2D" uid="uid://1sjni7egamlh" path="res://asset/image.png" id="15_v53xo"]
+[ext_resource type="Texture2D" uid="uid://t26ovwwh3pj3" path="res://asset/Screenshot 2025-10-30 082238.png" id="17_f8ktl"]
+[ext_resource type="PackedScene" uid="uid://ie74ecnfilpn" path="res://porject/umacoin.tscn" id="18_1rwur"]
+[ext_resource type="Texture2D" uid="uid://cvdh8sgnkh6w5" path="res://asset/image_2.jpg" id="19_4jptm"]
+[ext_resource type="Texture2D" uid="uid://63ytytj0c6ce" path="res://asset/what-are-your-favorite-panels-from-part-2-so-far-v0-rygwdxfvqz3b1.webp" id="20_rv1rq"]
+[ext_resource type="Script" uid="uid://bl2iqciw7k3qs" path="res://porject/area_2d.gd" id="21_f8ktl"]
+[ext_resource type="Texture2D" uid="uid://bbaudhvn6w3rx" path="res://asset/Screenshot 2025-10-21 201328.png" id="21_s6w3d"]
+[ext_resource type="AudioStream" uid="uid://dfuol06wbyfnt" path="res://asset/lobotomy-sound-effect.mp3" id="22_6y7gj"]
+[ext_resource type="Texture2D" uid="uid://bv8rqtgkc3ghq" path="res://asset/IMG_6722.png" id="22_y3awa"]
+[ext_resource type="Texture2D" uid="uid://dbv54h3lve0uv" path="res://asset/img/the-only-thing-i-could-think-about-since-elphelt-came-ou-v0-0eq59u4z3q5c1.webp" id="23_s6w3d"]
+[ext_resource type="Texture2D" uid="uid://ctimgrihxo2pf" path="res://asset/Capture d’écran 2025-05-10 152003.png" id="24_y3awa"]
+[ext_resource type="Texture2D" uid="uid://pdw3qsovodjb" path="res://asset/vidéo/636625868623447717-AP-APTOPIX-Heat-Bucks-Basketball-39255807-e1556638154381.jpeg" id="26_m2fqx"]
+[ext_resource type="Texture2D" uid="uid://pdcvlcpnnjch" path="res://asset/300px-Rocinante_StandingSprite.webp" id="27_m2fqx"]
+[ext_resource type="Texture2D" uid="uid://buc5c6jm2jmpp" path="res://asset/vidéo/Image (6).jpg" id="29_33r43"]
+[ext_resource type="Texture2D" uid="uid://dq7jn28qib7sl" path="res://asset/vidéo/Image (7).jpg" id="30_mlxbr"]
+[ext_resource type="Texture2D" uid="uid://bipr2vdpf5ejy" path="res://asset/vidéo/Image (8).jpg" id="31_7m3w4"]
+[ext_resource type="Texture2D" uid="uid://k5yjkma8d75w" path="res://asset/vidéo/6722d479afe38.jpg" id="31_n8q8q"]
+[ext_resource type="Texture2D" uid="uid://cgenjya3o8pug" path="res://asset/vidéo/Image (9).jpg" id="32_rsdbr"]
+[ext_resource type="Texture2D" uid="uid://d31t57s1n28h0" path="res://asset/vidéo/Image (10).jpg" id="33_gqppy"]
+[ext_resource type="Texture2D" uid="uid://bb14rwu7m74oo" path="res://asset/vidéo/Image (11).jpg" id="34_qbtnb"]
+[ext_resource type="Texture2D" uid="uid://c6hjrosb3gcum" path="res://asset/vidéo/Image (12).jpg" id="35_d0u3d"]
+[ext_resource type="Texture2D" uid="uid://drgy773ebly5q" path="res://asset/vidéo/Image (13).jpg" id="36_rdpof"]
+[ext_resource type="Texture2D" uid="uid://cwul5w8808eq1" path="res://asset/vidéo/Image (14).jpg" id="37_xjq35"]
+[ext_resource type="Texture2D" uid="uid://cghedp036bi4h" path="res://asset/vidéo/Image (5).jpg" id="38_x6h5m"]
+[ext_resource type="Texture2D" uid="uid://fw4hx6sfxj75" path="res://asset/vidéo/Image (16).jpg" id="39_5g6r0"]
+[ext_resource type="Texture2D" uid="uid://c2ieu6o5t8mvg" path="res://asset/vidéo/Image (17).jpg" id="40_g15ow"]
+[ext_resource type="Texture2D" uid="uid://dkc1inxocnq57" path="res://asset/vidéo/Image (18).jpg" id="41_5h7r4"]
+[ext_resource type="Texture2D" uid="uid://bxiofs224trra" path="res://asset/vidéo/Image (19).jpg" id="42_d6usd"]
+[ext_resource type="Texture2D" uid="uid://bfas0hweyahd" path="res://asset/vidéo/Image (20).jpg" id="43_sgsbn"]
+[ext_resource type="Texture2D" uid="uid://ba8m8xqwjsvqc" path="res://asset/vidéo/Image (21).jpg" id="44_d0u3d"]
+[ext_resource type="Texture2D" uid="uid://wicyixt1lvw3" path="res://asset/vidéo/Image (22).jpg" id="45_rdpof"]
+[ext_resource type="Texture2D" uid="uid://cxqmn4e62cs70" path="res://asset/vidéo/Image (23).jpg" id="46_xjq35"]
+[ext_resource type="Texture2D" uid="uid://bli4ows17fu4y" path="res://asset/vidéo/Image (24).jpg" id="47_x6h5m"]
+[ext_resource type="Texture2D" uid="uid://dhfxk2643odg8" path="res://asset/vidéo/Image (25).jpg" id="48_5g6r0"]
+[ext_resource type="Texture2D" uid="uid://c0ue4qkg5ymuh" path="res://asset/vidéo/Image (26).jpg" id="49_g15ow"]
+[ext_resource type="Texture2D" uid="uid://bfvqbs5fft25d" path="res://asset/vidéo/Image (27).jpg" id="50_5h7r4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_keufu"]
+size = Vector2(501, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2jgve"]
+size = Vector2(20, 1069)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4yp3h"]
+size = Vector2(346, 74)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0nkmp"]
+size = Vector2(209.75, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fd258"]
+size = Vector2(225, 38)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t7jna"]
+size = Vector2(208, 25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wh851"]
+size = Vector2(675.192, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m2fqx"]
+size = Vector2(137, 676)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_1r5ja"]
+size = Vector2(1012, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gb518"]
+size = Vector2(1121.5, 36)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_33r43"]
+size = Vector2(7974.5, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_v53xo"]
+size = Vector2(127.5, 783)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sgsbn"]
+size = Vector2(133, 1341)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d6usd"]
+size = Vector2(116, 1388)
+
+[node name="level_3" type="Node2D"]
+script = ExtResource("1_ik504")
+
+[node name="background" type="Node2D" parent="."]
+
+[node name="Image(15)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.247059)
+position = Vector2(1266, 536)
+texture = ExtResource("2_gb518")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue1" type="Sprite2D" parent="background"]
+position = Vector2(248, 656)
+scale = Vector2(1, 0.237705)
+texture = ExtResource("1_rsc25")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue2" type="Sprite2D" parent="background"]
+position = Vector2(506.75, 664.75)
+scale = Vector2(0.308383, 0.237705)
+texture = ExtResource("1_rsc25")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue3" type="Sprite2D" parent="background"]
+position = Vector2(606.75, 659.25)
+scale = Vector2(0.292415, 0.106557)
+texture = ExtResource("1_rsc25")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue4" type="Sprite2D" parent="background"]
+position = Vector2(728, 648)
+scale = Vector2(0.42016, 0.368852)
+texture = ExtResource("1_rsc25")
+
+[node name="8a79Ae60c65c025c65d1e9a70Fdacd95" type="Sprite2D" parent="background"]
+position = Vector2(824, 656)
+scale = Vector2(0.25, 0.0555556)
+texture = ExtResource("2_uhtrj")
+
+[node name="Xa40Ixptjv761" type="Sprite2D" parent="background"]
+position = Vector2(968, 665)
+scale = Vector2(0.116667, 0.0277778)
+texture = ExtResource("3_2jgve")
+
+[node name="Image(53)" type="Sprite2D" parent="background"]
+position = Vector2(1104, 650)
+scale = Vector2(0.26, 0.0555556)
+texture = ExtResource("4_4yp3h")
+
+[node name="8a79Ae60c65c025c65d1e9a70Fdacd96" type="Sprite2D" parent="background"]
+position = Vector2(-232, 624)
+scale = Vector2(0.73913, 0.13285)
+texture = ExtResource("2_uhtrj")
+
+[node name="Screenshot2025-10-18203131" type="Sprite2D" parent="background"]
+position = Vector2(-408, 528)
+scale = Vector2(0.115077, 0.113605)
+texture = ExtResource("5_0nkmp")
+
+[node name="83f9f40363e4d3522990f9Abd32c62813d9394Fef9380d88Aaf61d1Cae0d2Bd11" type="Sprite2D" parent="background"]
+position = Vector2(-210, 440)
+scale = Vector2(0.349224, 0.28871)
+texture = ExtResource("6_fd258")
+
+[node name="GWxh2YzWaaaic8m" type="Sprite2D" parent="background"]
+position = Vector2(-120, 416)
+scale = Vector2(0.296418, 0.112069)
+texture = ExtResource("7_t7jna")
+
+[node name="Xa40Ixptjv762" type="Sprite2D" parent="background"]
+position = Vector2(-225, 288)
+scale = Vector2(0.214323, 0.0921296)
+texture = ExtResource("3_2jgve")
+
+[node name="1" type="Sprite2D" parent="background"]
+position = Vector2(-154.5, 142.5)
+scale = Vector2(0.425556, 0.350794)
+texture = ExtResource("10_2jgve")
+
+[node name="197353043" type="Sprite2D" parent="background"]
+position = Vector2(-9.53674e-07, -39)
+scale = Vector2(0.12124, 0.109462)
+texture = ExtResource("11_4yp3h")
+
+[node name="Limbus-company-project-moon" type="Sprite2D" parent="background"]
+position = Vector2(-210, 597)
+scale = Vector2(0.594378, 0.161647)
+texture = ExtResource("10_sveto")
+
+[node name="Show" type="Sprite2D" parent="background"]
+position = Vector2(210, -118)
+scale = Vector2(0.414835, 0.329268)
+texture = ExtResource("12_0nkmp")
+
+[node name="Screenshot2025-10-21201253" type="Sprite2D" parent="background"]
+position = Vector2(552, -174)
+scale = Vector2(0.166836, 0.15827)
+texture = ExtResource("12_1rwur")
+
+[node name="ThumbnailImg4530" type="Sprite2D" parent="background"]
+position = Vector2(728, -99.5)
+scale = Vector2(0.63, 0.398)
+texture = ExtResource("13_ik504")
+
+[node name="2" type="Sprite2D" parent="background"]
+position = Vector2(1171, -138)
+scale = Vector2(0.235184, 0.196203)
+texture = ExtResource("14_aq7og")
+
+[node name="Image" type="Sprite2D" parent="background"]
+position = Vector2(905.125, -67.5)
+scale = Vector2(0.245114, 0.223094)
+texture = ExtResource("15_v53xo")
+
+[node name="Screenshot2025-10-30082238" type="Sprite2D" parent="background"]
+position = Vector2(3870, -167)
+scale = Vector2(0.733051, 0.0862702)
+texture = ExtResource("17_f8ktl")
+
+[node name="back_background" type="Node2D" parent="background"]
+show_behind_parent = true
+
+[node name="Ssc2019-15b-med" type="Sprite2D" parent="background/back_background"]
+position = Vector2(3867, -359)
+scale = Vector2(9.88867, 4.13281)
+texture = ExtResource("8_uhtrj")
+
+[node name="Image2" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.223529)
+position = Vector2(284, 423.5)
+scale = Vector2(0.983594, 0.96875)
+texture = ExtResource("19_4jptm")
+
+[node name="What-are-your-favorite-panels-from-part-2-so-far-v0-rygwdxfvqz3b1" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.270588)
+position = Vector2(746, 576)
+scale = Vector2(0.364062, 0.260784)
+texture = ExtResource("20_rv1rq")
+
+[node name="Screenshot2025-10-21201328" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.196078)
+position = Vector2(674, 458)
+scale = Vector2(0.0660257, 0.0735704)
+texture = ExtResource("21_s6w3d")
+
+[node name="Img6722" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.270588)
+position = Vector2(742, 359)
+scale = Vector2(0.2, 0.099569)
+texture = ExtResource("22_y3awa")
+
+[node name="The-only-thing-i-could-think-about-since-elphelt-came-ou-v0-0Eq59u4z3q5c1" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.258824)
+position = Vector2(613, 212)
+scale = Vector2(0.415741, 0.292763)
+texture = ExtResource("23_s6w3d")
+
+[node name="CaptureD’écran2025-05-10152003" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.223529)
+position = Vector2(792, 71)
+scale = Vector2(0.325723, 0.148352)
+texture = ExtResource("24_y3awa")
+
+[node name="300Px-rocinanteStandingSprite" type="Sprite2D" parent="background/back_background"]
+modulate = Color(1, 1, 1, 0.2)
+position = Vector2(707, 366)
+scale = Vector2(0.426667, 1.5075)
+texture = ExtResource("27_m2fqx")
+
+[node name="636625868623447717-ap-aptopix-heat-bucks-basketball-39255807-e1556638154381" type="Sprite2D" parent="background"]
+position = Vector2(1902, 351)
+scale = Vector2(0.432566, 0.0617557)
+texture = ExtResource("26_m2fqx")
+
+[node name="6722d479Afe38" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.231373)
+position = Vector2(2352, -60)
+texture = ExtResource("31_n8q8q")
+
+[node name="Image(6)" type="Sprite2D" parent="background"]
+position = Vector2(3672, 173)
+texture = ExtResource("29_33r43")
+
+[node name="Image(7)" type="Sprite2D" parent="background"]
+position = Vector2(4049.13, 70.375)
+scale = Vector2(0.513295, 0.614993)
+texture = ExtResource("30_mlxbr")
+
+[node name="Image(8)" type="Sprite2D" parent="background"]
+position = Vector2(3971, 610)
+texture = ExtResource("31_7m3w4")
+
+[node name="Image(9)" type="Sprite2D" parent="background"]
+position = Vector2(2831, 4)
+scale = Vector2(1, 0.212474)
+texture = ExtResource("32_rsdbr")
+
+[node name="Image(10)" type="Sprite2D" parent="background"]
+position = Vector2(3659, 1121)
+scale = Vector2(0.460375, 0.39775)
+texture = ExtResource("33_gqppy")
+
+[node name="Image(11)" type="Sprite2D" parent="background"]
+position = Vector2(3635.88, 615.875)
+scale = Vector2(0.34854, 0.311412)
+texture = ExtResource("34_qbtnb")
+
+[node name="Image(12)" type="Sprite2D" parent="background"]
+position = Vector2(3984, 1430)
+scale = Vector2(0.854599, 0.959961)
+texture = ExtResource("35_d0u3d")
+
+[node name="Image(13)" type="Sprite2D" parent="background"]
+position = Vector2(3459, 1849)
+texture = ExtResource("36_rdpof")
+
+[node name="Image(14)" type="Sprite2D" parent="background"]
+position = Vector2(-346, -600)
+scale = Vector2(1.07459, 0.983398)
+texture = ExtResource("37_xjq35")
+
+[node name="Image(5)" type="Sprite2D" parent="background"]
+position = Vector2(1135, -484)
+texture = ExtResource("38_x6h5m")
+
+[node name="Image(16)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.313726)
+position = Vector2(1975, 223)
+scale = Vector2(0.37793, 0.188427)
+texture = ExtResource("39_5g6r0")
+
+[node name="Image(17)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.352941)
+position = Vector2(1865, 32)
+scale = Vector2(0.408238, 0.222952)
+texture = ExtResource("40_g15ow")
+
+[node name="Image(18)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.431373)
+position = Vector2(1961, -261)
+scale = Vector2(0.569061, 0.43457)
+texture = ExtResource("41_5h7r4")
+
+[node name="Image(19)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.360784)
+position = Vector2(3083, 637)
+scale = Vector2(0.576823, 0.496094)
+texture = ExtResource("42_d6usd")
+
+[node name="Image(20)" type="Sprite2D" parent="background"]
+position = Vector2(4472, 610)
+texture = ExtResource("43_sgsbn")
+
+[node name="Image(21)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.380392)
+position = Vector2(2826, -177)
+scale = Vector2(0.524819, 0.462366)
+texture = ExtResource("44_d0u3d")
+
+[node name="Image(22)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.403922)
+position = Vector2(1782, -653)
+scale = Vector2(0.382812, 0.440899)
+texture = ExtResource("45_rdpof")
+
+[node name="Image(23)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.423529)
+position = Vector2(2680, -425)
+scale = Vector2(0.532227, 0.559735)
+texture = ExtResource("46_xjq35")
+
+[node name="Image(24)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.439216)
+position = Vector2(2862, -852)
+scale = Vector2(0.712579, 0.728516)
+texture = ExtResource("47_x6h5m")
+
+[node name="Image(25)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.505882)
+position = Vector2(1916.38, -994.375)
+scale = Vector2(0.526851, 0.590589)
+texture = ExtResource("48_5g6r0")
+
+[node name="Image(26)" type="Sprite2D" parent="background"]
+modulate = Color(1, 1, 1, 0.32549)
+position = Vector2(2795, -1294)
+texture = ExtResource("49_g15ow")
+
+[node name="Image(27)" type="Sprite2D" parent="background"]
+position = Vector2(8454, 1277)
+texture = ExtResource("50_5h7r4")
+
+[node name="sol" parent="." instance=ExtResource("8_momx5")]
+position = Vector2(10, 0)
+
+[node name="hitbox" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(248, 659)
+shape = SubResource("RectangleShape2D_keufu")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(32, 222.5)
+shape = SubResource("RectangleShape2D_2jgve")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(603, 696)
+shape = SubResource("RectangleShape2D_4yp3h")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(707, 693)
+shape = SubResource("RectangleShape2D_4yp3h")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(728.125, 647)
+shape = SubResource("RectangleShape2D_0nkmp")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(811, 656)
+shape = SubResource("RectangleShape2D_0nkmp")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(968.5, 667)
+shape = SubResource("RectangleShape2D_fd258")
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(1104, 649.5)
+shape = SubResource("RectangleShape2D_t7jna")
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(1903, 338)
+scale = Vector2(1.14706, 1)
+shape = SubResource("RectangleShape2D_wh851")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(1319, -382)
+shape = SubResource("RectangleShape2D_m2fqx")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(2826, -36)
+shape = SubResource("RectangleShape2D_1r5ja")
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(3878.75, -177)
+shape = SubResource("RectangleShape2D_gb518")
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="hitbox"]
+position = Vector2(2794.75, 832)
+shape = SubResource("RectangleShape2D_33r43")
+
+[node name="umacoin" parent="." instance=ExtResource("18_1rwur")]
+position = Vector2(3870, -368)
+scale = Vector2(0.362619, 0.371697)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("22_6y7gj")
+
+[node name="label1" type="Area2D" parent="."]
+script = ExtResource("21_f8ktl")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="label1"]
+position = Vector2(680, 256)
+shape = SubResource("RectangleShape2D_v53xo")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="label1"]
+position = Vector2(2681, -668.5)
+shape = SubResource("RectangleShape2D_sgsbn")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="label1"]
+position = Vector2(1782, -346)
+shape = SubResource("RectangleShape2D_d6usd")
+
+[connection signal="body_entered" from="label1" to="." method="_on_area_2d_body_entered"]

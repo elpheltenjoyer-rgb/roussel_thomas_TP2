@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bta7hyku5dfsp"]
+
+[ext_resource type="Script" uid="uid://dw6f6fp302lwq" path="res://coin.gd" id="1_ldre7"]
+[ext_resource type="Texture2D" uid="uid://b1sswwkv78j8m" path="res://asset/limbus-company-project-moon.png" id="2_ycsoq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ycsoq"]
+size = Vector2(496, 496)
+
+[node name="coin" type="Area2D"]
+script = ExtResource("1_ldre7")
+
+[node name="Limbus-company-project-moon" type="Sprite2D" parent="."]
+texture = ExtResource("2_ycsoq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ycsoq")

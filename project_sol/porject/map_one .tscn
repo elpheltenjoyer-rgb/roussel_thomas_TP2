@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://dvh6wisqnfs2p"]
+
+[ext_resource type="Texture2D" uid="uid://dx73qwvs1tn2m" path="res://asset/img/where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2jyg6ue1.jpg" id="1_cfcxt"]
+[ext_resource type="Texture2D" uid="uid://c6fbvgtxpmun2" path="res://asset/xa40ixptjv761.jpg" id="2_yhfyg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_78p24"]
+size = Vector2(3986, 20)
+
+[node name="map one" type="Node2D"]
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue1" type="Sprite2D" parent="."]
+top_level = true
+position = Vector2(1984, 680)
+scale = Vector2(7.90918, 1)
+texture = ExtResource("1_cfcxt")
+
+[node name="Xa40Ixptjv761" type="Sprite2D" parent="."]
+position = Vector2(1984, 1192)
+scale = Vector2(2.06667, 1)
+texture = ExtResource("2_yhfyg")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1984, 672)
+shape = SubResource("RectangleShape2D_78p24")

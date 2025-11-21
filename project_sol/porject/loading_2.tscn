@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://spr4mwheycwu"]
+
+[ext_resource type="Script" uid="uid://cdmuy6vfmbrps" path="res://porject/loading_2.gd" id="1_wyvsj"]
+[ext_resource type="Texture2D" uid="uid://dn774h4rscp3y" path="res://asset/vidéo/Image (3).jpg" id="2_bbl7q"]
+
+[node name="loading_2" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_wyvsj")
+
+[node name="Image(3)" type="Sprite2D" parent="."]
+position = Vector2(32.5001, -6.49997)
+scale = Vector2(3.29338, 2.78302)
+texture = ExtResource("2_bbl7q")
+
+[node name="ColorRect" type="ColorRect" parent="Image(3)"]
+offset_left = -279.5
+offset_top = -159.0
+offset_right = -239.5
+offset_bottom = -119.0
+scale = Vector2(31.4828, 1.92529)
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Image(3)"]
+offset_left = -279.5
+offset_top = 86.4169
+offset_right = -239.5
+offset_bottom = 126.417
+scale = Vector2(31.4828, 1.92529)
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.004
+anchor_bottom = -0.004
+offset_left = -363.0
+offset_top = -49.408
+offset_right = -199.0
+offset_bottom = -26.408
+scale = Vector2(4.72113, 4.30184)
+text = "Level 2: The Brainrot "
+
+[node name="Camera2D" type="Camera2D" parent="."]

@@ -1,0 +1,47 @@
+[gd_scene load_steps=3 format=3 uid="uid://b83lc3jw3u730"]
+
+[ext_resource type="Script" uid="uid://2r6ctit8i1c2" path="res://porject/loading_3.gd" id="1_7hu85"]
+[ext_resource type="Texture2D" uid="uid://cgqq24mrinxvd" path="res://asset/vidéo/Image.jpg" id="1_rmf45"]
+
+[node name="loading_3" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7hu85")
+
+[node name="Image" type="Sprite2D" parent="."]
+position = Vector2(-42.3906, -6)
+scale = Vector2(0.394218, 0.302488)
+texture = ExtResource("1_rmf45")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -466.0
+offset_top = -103.0
+offset_right = -262.0
+offset_bottom = -80.0001
+scale = Vector2(4.47939, 6.98569)
+text = "Level 3 : Uma Musume ???"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -865.0
+offset_top = -348.0
+offset_right = -803.0
+offset_bottom = -308.0
+scale = Vector2(28.8214, 2.13636)
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = -902.0
+offset_top = 241.0
+offset_right = -840.0
+offset_bottom = 281.0
+scale = Vector2(28.8214, 2.13636)
+color = Color(0, 0, 0, 1)

@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3 uid="uid://etveo7i74c12"]
+
+[ext_resource type="Script" uid="uid://cwdiawyv2cqks" path="res://loading_1.gd" id="1_j11oj"]
+[ext_resource type="Texture2D" uid="uid://bx0wk5bqiu4mt" path="res://asset/vidéo/Image (1).jpg" id="2_do7qb"]
+
+[node name="loading_1" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_top = -1.0
+offset_right = 40.0
+offset_bottom = 39.0
+script = ExtResource("1_j11oj")
+
+[node name="Image(1)" type="Sprite2D" parent="."]
+position = Vector2(6.50003, -3.5)
+scale = Vector2(0.355958, 0.261494)
+texture = ExtResource("2_do7qb")
+
+[node name="ColorRect" type="ColorRect" parent="Image(1)"]
+offset_left = -1776.63
+offset_top = -885.259
+offset_right = -1736.63
+offset_bottom = -845.259
+scale = Vector2(99.398, -15.4085)
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Image(1)"]
+offset_left = -1804.75
+offset_top = 1403.05
+offset_right = -1764.75
+offset_bottom = 1443.05
+scale = Vector2(99.398, -15.4085)
+color = Color(0, 0, 0, 1)
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = -538.0
+offset_top = -59.0
+offset_right = -323.0
+offset_bottom = -36.0
+scale = Vector2(5.03591, 4.4041)
+text = "Level 1: Meme D.N.A of soul"
+
+[node name="Camera2D" type="Camera2D" parent="."]

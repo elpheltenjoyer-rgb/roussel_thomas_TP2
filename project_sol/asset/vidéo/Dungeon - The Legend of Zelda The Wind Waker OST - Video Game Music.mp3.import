@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dvyoi8hsx2jpc"
+path="res://.godot/imported/Dungeon - The Legend of Zelda The Wind Waker OST - Video Game Music.mp3-8170b3a6e47faa8318d66bf656de09e2.mp3str"
+
+[deps]
+
+source_file="res://asset/vidéo/Dungeon - The Legend of Zelda The Wind Waker OST - Video Game Music.mp3"
+dest_files=["res://.godot/imported/Dungeon - The Legend of Zelda The Wind Waker OST - Video Game Music.mp3-8170b3a6e47faa8318d66bf656de09e2.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

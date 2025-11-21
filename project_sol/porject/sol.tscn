@@ -1,4 +1,4 @@
-[gd_scene load_steps=217 format=3 uid="uid://6eldlj7hr12f"]
+[gd_scene load_steps=219 format=3 uid="uid://6eldlj7hr12f"]
 
 [ext_resource type="Script" uid="uid://pfq6m33rxlx3" path="res://porject/sol.gd" id="1_juqrf"]
 [ext_resource type="Texture2D" uid="uid://bmqmk0xq621g3" path="res://asset/img/sol animation/crouch/crouch_1.png" id="2_mrqqa"]
@@ -212,7 +212,9 @@
 [ext_resource type="Texture2D" uid="uid://dxi0vqhvqc3ve" path="res://asset/img/sol animation/ezgif-split (27)/frame_19_delay-0.06s.png" id="189_akt8u"]
 [ext_resource type="Texture2D" uid="uid://bi71hi5f6dc0b" path="res://asset/img/sol animation/ezgif-split (27)/frame_20_delay-0.06s.png" id="190_yc33s"]
 [ext_resource type="Texture2D" uid="uid://cih20bmtdfxpu" path="res://asset/img/sol animation/ezgif-split (27)/frame_21_delay-0.25s.png" id="191_dvrde"]
-[ext_resource type="AudioStream" uid="uid://bs14aq0m2naom" path="res://asset/001_Smell of the Game.mp3" id="213_8jsjv"]
+[ext_resource type="Texture2D" uid="uid://sqivqcv38dwc" path="res://asset/9e745b25e7834cb.png" id="213_8jsjv"]
+[ext_resource type="PackedScene" uid="uid://0lvrr35fdfb7" path="res://porject/label_1.tscn" id="214_8d1k5"]
+[ext_resource type="PackedScene" uid="uid://bkr02x4h4ypm" path="res://porject/label_2.tscn" id="215_l2ykg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ttgbm"]
 animations = [{
@@ -978,6 +980,14 @@ position = Vector2(262.61, 408)
 scale = Vector2(-6801.23, 39834.5)
 zoom = Vector2(0.46, 0.46)
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
-stream = ExtResource("213_8jsjv")
-autoplay = true
+[node name="9e745b25e7834Cb" type="Sprite2D" parent="."]
+position = Vector2(152, 544)
+texture = ExtResource("213_8jsjv")
+
+[node name="label_1" parent="." instance=ExtResource("214_8d1k5")]
+position = Vector2(-984, -136)
+scale = Vector2(2.10618, 2.39885)
+
+[node name="label_2" parent="." instance=ExtResource("215_l2ykg")]
+position = Vector2(-984, -136)
+scale = Vector2(2.10618, 2.39885)

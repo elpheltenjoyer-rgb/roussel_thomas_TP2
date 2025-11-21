@@ -1,0 +1,1327 @@
+[gd_scene load_steps=17 format=3 uid="uid://v0kxmu473uom"]
+
+[ext_resource type="Texture2D" uid="uid://befoh1mkt3ca8" path="res://asset/img/GWxh2yzWAAAIC8M.jpg" id="1_dekdu"]
+[ext_resource type="Script" uid="uid://0k1tixxacpdf" path="res://porject/level_2.gd" id="1_li0e3"]
+[ext_resource type="PackedScene" uid="uid://6eldlj7hr12f" path="res://porject/sol.tscn" id="1_y0t7a"]
+[ext_resource type="Texture2D" uid="uid://dx73qwvs1tn2m" path="res://asset/img/where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2jyg6ue1.jpg" id="3_12o5r"]
+[ext_resource type="Texture2D" uid="uid://c6fbvgtxpmun2" path="res://asset/xa40ixptjv761.jpg" id="4_li0e3"]
+[ext_resource type="Texture2D" uid="uid://bmyiwtij5enrc" path="res://asset/8a79ae60c65c025c65d1e9a70fdacd95.jpg" id="5_wgfsl"]
+[ext_resource type="PackedScene" uid="uid://bta7hyku5dfsp" path="res://porject/coin.tscn" id="7_wgfsl"]
+[ext_resource type="Script" uid="uid://dwwlgnnl2bj3w" path="res://porject/coin.gd" id="8_wgfsl"]
+[ext_resource type="AudioStream" uid="uid://cy356kc517ga7" path="res://asset/limbus-companyyyy.mp3" id="9_njvmc"]
+[ext_resource type="AudioStream" uid="uid://dr2xpibqbrkwr" path="res://asset/img/limbus-company-gregor.mp3" id="10_i4rjr"]
+[ext_resource type="Texture2D" uid="uid://b7xv1ghkkmhae" path="res://asset/Screenshot 2025-10-18 203131.png" id="11_gx3st"]
+[ext_resource type="AudioStream" uid="uid://xwm47i3mqmfj" path="res://asset/Worst Beat Ever Created [Number 19] (prod. Distant) - DistantCry.mp3" id="12_ev6vw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_njvmc"]
+size = Vector2(7306.5, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i4rjr"]
+size = Vector2(182, 5112)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gx3st"]
+size = Vector2(266, 7216)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ev6vw"]
+size = Vector2(273, 18)
+
+[node name="level_2" type="Node2D"]
+script = ExtResource("1_li0e3")
+
+[node name="sol" parent="." instance=ExtResource("1_y0t7a")]
+top_level = true
+position = Vector2(-8, -8)
+
+[node name="background" type="Node2D" parent="."]
+
+[node name="GWxh2YzWaaaic8m" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(280, 352)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m2" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(848, 352)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="background"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(3650.75, 656)
+scale = Vector2(38.52, 1)
+shape = SubResource("RectangleShape2D_njvmc")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(-101, -1348)
+shape = SubResource("RectangleShape2D_i4rjr")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(8424, -1880)
+shape = SubResource("RectangleShape2D_gx3st")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(1352, 344)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(2408, 56)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(2136, -344)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D7" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(2408, -752)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D8" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(1384, -568)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D9" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(424, -752)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D10" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(856, -104)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D11" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(136, -312)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D12" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(2408, -752)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D13" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(3272, -141)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D14" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(4408, 32)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="CollisionShape2D15" type="CollisionShape2D" parent="background/StaticBody2D"]
+position = Vector2(2984, -1040)
+shape = SubResource("RectangleShape2D_ev6vw")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue1" type="Sprite2D" parent="background"]
+position = Vector2(3368, 672)
+scale = Vector2(24.36, 1)
+texture = ExtResource("3_12o5r")
+
+[node name="Xa40Ixptjv761" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1376, 1200)
+scale = Vector2(7.48, 1)
+texture = ExtResource("4_li0e3")
+
+[node name="GWxh2YzWaaaic8m3" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.55, 352.474)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m4" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.55, 352.474)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="8a79Ae60c65c025c65d1e9a70Fdacd95" type="Sprite2D" parent="background"]
+position = Vector2(-1464, 144)
+scale = Vector2(3.94908, 31.9834)
+texture = ExtResource("5_wgfsl")
+
+[node name="8a79Ae60c65c025c65d1e9a70Fdacd96" type="Sprite2D" parent="background"]
+position = Vector2(10096, 40.0001)
+rotation = 3.14159
+scale = Vector2(4.89825, -37.9126)
+texture = ExtResource("5_wgfsl")
+
+[node name="GWxh2YzWaaaic8m5" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.55, 352.474)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m6" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.55, 352.474)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m7" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3693.1, 352.948)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m8" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4261.1, 352.948)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m9" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.55, 350.474)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m10" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.55, 350.474)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m11" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5965.1, 350.948)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m12" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6533.1, 350.948)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m13" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7101.1, 350.948)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m14" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7669.1, 350.948)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m15" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.65, 351.422)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m16" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.65, 351.422)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m17" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -272)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m18" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -272)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m19" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -271.526)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m20" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -271.526)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m21" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -271.526)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m22" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -271.526)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m23" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -271.052)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m24" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -271.052)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m25" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -273.526)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m26" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -273.526)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m27" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -273.052)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m28" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -273.052)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m29" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -273.052)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m30" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -273.052)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m31" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -272.578)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m32" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -272.578)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m33" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -888)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m34" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -888)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m35" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -887.526)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m36" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -887.526)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m37" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -887.526)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m38" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -887.526)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m39" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -887.052)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m40" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -887.052)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m41" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -889.526)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m42" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -889.526)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m43" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -889.052)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m44" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -889.052)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m45" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -889.052)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m46" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -889.052)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m47" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -888.578)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m48" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -888.578)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m49" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -1512)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m50" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -1512)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m51" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -1511.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m52" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -1511.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m53" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -1511.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m54" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -1511.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m55" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -1511.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m56" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -1511.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m57" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -1513.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m58" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -1513.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m59" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -1513.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m60" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -1513.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m61" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -1513.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m62" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -1513.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m63" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -1512.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m64" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -1512.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m65" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -2128)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m66" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -2128)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m67" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -2127.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m68" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -2127.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m69" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -2127.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m70" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -2127.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m71" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -2127.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m72" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -2127.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m73" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -2129.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m74" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -2129.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m75" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -2129.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m76" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -2129.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m77" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -2129.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m78" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -2129.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m79" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -2128.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m80" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -2128.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m81" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -2744)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m82" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -2744)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m83" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -2743.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m84" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -2743.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m85" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -2743.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m86" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -2743.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m87" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -2743.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m88" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -2743.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m89" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -2745.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m90" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -2745.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m91" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -2745.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m92" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -2745.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m93" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -2745.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m94" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -2745.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m95" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -2744.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m96" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -2744.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m97" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -3360)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m98" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -3360)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m99" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -3359.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m100" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -3359.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m101" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -3359.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m102" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -3359.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m103" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -3359.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m104" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -3359.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m105" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -3361.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m106" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -3361.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m107" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -3361.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m108" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -3361.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m109" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -3361.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m110" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -3361.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m111" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -3360.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m112" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -3360.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m113" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -3976)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m114" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -3976)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m115" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -3975.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m116" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -3975.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m117" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -3975.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m118" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -3975.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m119" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -3975.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m120" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -3975.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m121" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -3977.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m122" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -3977.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m123" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -3977.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m124" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -3977.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m125" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -3977.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m126" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -3977.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m127" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -3976.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m128" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -3976.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m129" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -4592)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m130" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -4592)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m131" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -4591.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m132" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -4591.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m133" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -4591.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m134" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -4591.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m135" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -4591.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m136" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -4591.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m137" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -4593.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m138" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -4593.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m139" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -4593.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m140" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -4593.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m141" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -4593.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m142" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -4593.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m143" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -4592.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m144" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -4592.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m145" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -5208)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m146" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -5208)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m147" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -5207.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m148" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -5207.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m149" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -5207.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m150" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -5207.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m151" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -5207.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m152" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -5207.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m153" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -5209.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m154" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -5209.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m155" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -5209.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m156" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -5209.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m157" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -5209.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m158" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -5209.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m159" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -5208.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m160" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -5208.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m161" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(279.549, -5824)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m162" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(847.549, -5824)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m163" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1418.1, -5823.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m164" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(1986.1, -5823.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m165" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(2554.1, -5823.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m166" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3122.1, -5823.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m167" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(3692.65, -5823.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m168" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4260.65, -5823.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m169" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(4826.1, -5825.53)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m170" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5394.1, -5825.53)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m171" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(5964.65, -5825.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m172" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(6532.65, -5825.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m173" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7100.65, -5825.05)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m174" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(7668.65, -5825.05)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m175" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8239.2, -5824.58)
+scale = Vector2(0.532609, 0.403886)
+texture = ExtResource("1_dekdu")
+
+[node name="GWxh2YzWaaaic8m176" type="Sprite2D" parent="background"]
+show_behind_parent = true
+position = Vector2(8807.2, -5824.58)
+scale = Vector2(0.533, 0.404)
+texture = ExtResource("1_dekdu")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue2" type="Sprite2D" parent="background"]
+position = Vector2(1352, 344)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue3" type="Sprite2D" parent="background"]
+position = Vector2(2408, 56)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue4" type="Sprite2D" parent="background"]
+position = Vector2(2136, -344)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue5" type="Sprite2D" parent="background"]
+position = Vector2(2408, -752)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue6" type="Sprite2D" parent="background"]
+position = Vector2(1384, -568)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue7" type="Sprite2D" parent="background"]
+position = Vector2(424, -752)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue8" type="Sprite2D" parent="background"]
+position = Vector2(136, -312)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue9" type="Sprite2D" parent="background"]
+position = Vector2(856, -104)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue10" type="Sprite2D" parent="background"]
+position = Vector2(3272, -141)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue11" type="Sprite2D" parent="background"]
+position = Vector2(2976, -1040)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="Where-would-you-want-to-live-in-the-guilty-gear-world-v0-iaakq2Jyg6Ue12" type="Sprite2D" parent="background"]
+position = Vector2(4408, 32)
+scale = Vector2(0.551943, -0.435816)
+texture = ExtResource("3_12o5r")
+
+[node name="coin_bag" type="Node2D" parent="."]
+
+[node name="coin" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(864, 592)
+scale = Vector2(0.15, 0.15)
+
+[node name="coin2" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(1984, -104)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin3" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(3680, 592)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin4" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(5072, 280)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin5" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(2424, -32)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin6" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(1352, 592)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin7" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(1352, 243)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin8" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(2128, -432)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin9" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(3264, -232)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin10" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(4416, -64)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin11" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(2400, -848)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin12" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(2968, -1144)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin13" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(1384, -656)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin14" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(848, -200)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin15" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(144, -408)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="coin16" parent="coin_bag" instance=ExtResource("7_wgfsl")]
+position = Vector2(418, -848)
+scale = Vector2(0.15, 0.15)
+script = ExtResource("8_wgfsl")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_njvmc")
+
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("10_i4rjr")
+
+[node name="Screenshot2025-10-18203131" type="Sprite2D" parent="."]
+position = Vector2(7224, 184)
+scale = Vector2(0.618214, 0.631601)
+texture = ExtResource("11_gx3st")
+
+[node name="WorstBeatEverCreated[number19](prod_Distant)-DistantCry" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("12_ev6vw")
+autoplay = true

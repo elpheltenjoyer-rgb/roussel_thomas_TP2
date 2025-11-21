@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="project_sol"
-run/main_scene="uid://b01rc4n6s1su4"
+run/main_scene="uid://c2q1jm3x4rd4i"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
